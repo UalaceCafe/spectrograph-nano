@@ -1,4 +1,4 @@
-# Spectogaph Nano
+# Spectograph Nano
 
 ## Description
 
@@ -47,3 +47,4 @@ In `src/main.c` you can edit some fundamental defines, although after many tests
 ## Credits
 
 * Matiasus: [SDD1306 - C Library for SSD1306 0.96" OLED display](https://github.com/Matiasus/SSD1306).
+
