@@ -24,7 +24,7 @@ The circuit and its components are connected in the following way:
 
 **NOTE**: The buttons are active-high and need external pull-down resistors. A debouncing capacitor should also be used on each button.
 
-**NOTE**: The on-chip ATmega328P ADC is used directly for the measurement of the signal and  is configured for 5V, so the input signal MUST be $0V \le V_In \le 5V$.
+**NOTE**: The on-chip ATmega328P ADC is used directly for the measurement of the signal and  is configured for 5V, so the input signal MUST be $0V \le V_{In} \le 5V$.
 
 ![assembly](assembly.jpeg)
 
@@ -47,5 +47,6 @@ In `src/main.c` you can edit some fundamental defines, although after many tests
 ## Credits
 
 * Matiasus: [SDD1306 - C Library for SSD1306 0.96" OLED display](https://github.com/Matiasus/SSD1306).
+
 
 
