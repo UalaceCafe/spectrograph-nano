@@ -28,7 +28,7 @@ The circuit and its components are connected in the following way:
 
 ![assembly](assembly.jpeg)
 
-An assembly example of the project. Note that the buttons are not used in this example, their equivalent pins on the board instead being connected directly to 5V (`D2`) and GND (`D3`). The example signal used is a _100 Hz, 50% duty-cycle_ PWM signal from a Raspberry Pi Pico 2. Because our current frequency resolution is about 78 Hz, we can't measure the exact peak at 100 Hz. Also note that the software has been designed to not consider 0 Hz a valid peak frequency, given that our input signal will always have a non-zero, large DC component.
+An assembly example of the project. Note that the buttons are not used in this example, their equivalent pins on the board instead being connected directly to GND (`D2`) and 5V (`D3`). The example signal used is a _100 Hz, 50% duty-cycle_ PWM signal from a Raspberry Pi Pico 2. Because our current frequency resolution is about 78 Hz, we can't measure the exact peak at 100 Hz. Also note that the software has been designed to not consider 0 Hz a valid peak frequency, given that our input signal will always have a non-zero, large DC component.
 
 ## How to configure the firmware
 
@@ -47,6 +47,7 @@ In `src/main.c` you can edit some fundamental defines, although after many tests
 ## Credits
 
 * Matiasus: [SDD1306 - C Library for SSD1306 0.96" OLED display](https://github.com/Matiasus/SSD1306).
+
 
 
 
